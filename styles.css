@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+VIC+WA+NT+Hand+Pre&family=Happy+Monkey&family=Margarine&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron&display=swap');
+
+body {
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(250, 248, 248);
+    font-family: "Montserrat", sans-serif;;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header {
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-color: #457B9D;
+    padding: 4px 10px;
+}
+
+.subtitle {
+    background-color: #1D3557;
+    padding: 4px 8px;
+}
+
+.active-section {
+    background-color: #F1FAEE;
+    padding: 10px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+}
+
+.guide-section {
+    width: 400px;
+    display: flex;
+    margin: 50px auto;
+    background-color: #A8DADC;
+    padding: 15px;
+    border-bottom: 6px solid rgb(33, 69, 233);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#profile {
+   width: 200px;
+   height: auto;
+}
+
+.guide-info {
+    padding: 0px 10px;
+}
